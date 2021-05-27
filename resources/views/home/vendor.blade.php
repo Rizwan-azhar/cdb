@@ -1,9 +1,7 @@
 @extends('layout.app')
 
 @section('content')
-@if(Session::has('message'))
-<p class="alert {{ Session::get('alert-class', 'alert-info') }}">{{ Session::get('message') }}</p>
-@endif
+
     <div class="row justify-content-center">
         <div class="col-md-12 grid-margin stretch-card">
             <div class="card">

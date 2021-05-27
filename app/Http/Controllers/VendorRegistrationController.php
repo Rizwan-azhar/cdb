@@ -47,5 +47,3 @@ class VendorRegistrationController extends Controller
     return redirect('vendor')->with('info', 'You have Registered Successfully!');
 }
 }
-jgkf
-highlight_file
